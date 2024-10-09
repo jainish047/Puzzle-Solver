@@ -1,3 +1,19 @@
+Mainly my code lies in files:
+src/
+    index.js
+    App.js
+    Astar.js
+    components/
+        tile.js
+    index.css
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

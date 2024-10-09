@@ -93,8 +93,8 @@ function App() {
     if (path !== null) {
       console.log("path found, path length: ", path.length)
       console.log("simulating...")
-      path.forEach(currState => {
-        setTimeout(() => setBoard(currState), 1000)
+      path.forEach((currState, index) => {
+        setTimeout(() => setBoard(currState), 1000*index)
       })
     }else{
       console.log("no solution found")
